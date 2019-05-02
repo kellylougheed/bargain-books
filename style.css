@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  /* Image credit: https://unsplash.com/photos/sfL_QOnmy00 */
+  background: url("https://cdn.glitch.com/a2fe2b90-a08d-4360-bcfe-8bd9c1f7291a%2Fjanko-ferlic-174927-unsplash.jpg?1556826139062");
+  background-size: cover;
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Open Sans", arial;
+}
+
+h1, h2 {
+  font-family: "Special Elite";
+}
+
+div#container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+#container div {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+input, button, a {
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-family: "Special Elite";
+}
+
+input, button {
+  background: rgba(0,0,0,0.5);
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+button:hover {
+  background: black;
+  cursor: pointer;
+}
